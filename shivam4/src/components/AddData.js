@@ -33,7 +33,6 @@ sameer(e)
 
     if (this.state.lastname!='') {console.log("ok");
     
-
 if (this.state.mobile.length==10) {console.log('number verified');
 let reg = /^([a-zA-Z0-9]+)@([a-z\.-]+)com$/;
 if (reg.test(this.state.email)) {alert('Your Data has been added successfully');
